@@ -7,7 +7,7 @@ COPY ./package*.json ./
 RUN npm install
 
 COPY . .
-##devopsify
+
 USER node
 
 EXPOSE 3000
